@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Pricing Component</title>
+</head>
+<body>
+    <header>
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required</p>
+    </header>
+
+    <main>
+        <div class="top">
+            <p><span class="pv">10K </span> Pageviews</p>
+            <h2>$<span class="mth">8.00 </span><small>/month</small></h2>
+        </div>
+        <input type="range" name="" id="" min="0" max="100" class="range" step="25" value="0">
+        <div class="fill"></div>
+        <div class="small">
+            <small>monthly Billing</small>
+            <input type="checkbox" class="switch">
+            <small>Yearly Billing</small>
+            <small class="discount"><span class="minus">-</span> 25% <span class="dis"> discount</span></small>
+        </div>
+        <hr>
+        <div class="bottom">
+            <ul>
+                <li><img src="images/icon-check.svg" alt=""><span>Unlimited websites</span></li>
+                <li><img src="images/icon-check.svg" alt=""><span>100% data ownership</span></li>
+                <li><img src="images/icon-check.svg" alt=""><span>Email reports</span></li>
+            </ul>
+
+            <button>Start my trial</button>
+         </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
